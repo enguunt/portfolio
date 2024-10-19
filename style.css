@@ -1,0 +1,580 @@
+.tab { 
+    background-color: #000;
+    border: 1px solid #ccc;
+    width: 350px;
+    height: 100vh;
+    left: -1500px;
+    top: 0;
+    transition: all 0.9s !important;
+    float: left;
+    border-radius: 5px;
+    position: fixed;
+}
+.tab .closeBtn {
+    margin-left: 300px;
+    margin-top: 20px;
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+    font-size: 25px;
+    color: #fff;
+    transition: all 0.9s !important;
+}
+.tab .text ul {
+    list-style-type: none;
+}
+.tab .text ul li {
+    margin-bottom: 15px;
+}
+.tab .text ul li a{
+    text-decoration: none;
+    color: #a8a9b4;
+    font-size: 18px;
+    transition: all 0.5s ease-out;
+}
+.tab .text ul li:hover a{
+    color: #fff;
+}
+.tab .text ul li:hover a i{
+    color: #18D8EF;
+}
+.show-tab{
+    left: 10px !important;
+    transition: all 0.5s ease-out !important;
+    opacity: 1;
+}
+.profile {
+    margin-left: 75px;
+    color: #fff;
+    margin-bottom: 20px;
+    text-decoration: none;
+}
+.profile h3 i{
+    color: #18D8EF;
+}
+.profile img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    transition: all 0.3s ease-out;
+    color: #fff;
+}
+.profile a:hover img{
+    box-shadow: 230px 230px inset;
+    border-radius: 50%;
+    border : 1px solid;
+    color: #fff;
+    transform: scale(1.1,1.1)
+}
+.profile h3{
+    padding-left: 35px;
+    padding-top: 10px;
+}
+.menu{
+    background-color: #fff;
+    position: absolute;
+    left : 20px;
+    color: #fff;
+    display: block;
+    position: fixed;
+}
+.overlay{
+    position: fixed;
+    visibility: hidden;
+    top: 0;
+    left: 0;
+    width : 100%;
+    height: 100%;
+    background: #000;
+    opacity: 0;
+    z-index: -1;
+}
+.show-overlay{
+    opacity: 0.5 !important;
+}
+.menu, .mode{
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: 0.3s;
+    background: transparent;
+}
+.menu i, .mode i{
+    font-size: 50px;
+    border-radius: 10px;
+}
+button {
+    border-radius: 10px;
+    border: none;
+}
+body {
+    background-color: #000;
+}
+.animation {
+    position: absolute;
+    z-index: 7;
+}
+.backzurag{
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+}
+.zurag{
+    position: relative;
+}
+.zurag img{
+    height: 700px;
+    width: 100%;
+    object-fit: cover;
+    background-attachment: fixed;
+}
+.ner {
+    color: #fff;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 56px;
+    margin-left: 150px;
+    margin-top: 290px;
+}
+.typewriter h1 {
+    color: #fff;
+    font-family: monospace;
+    overflow: hidden; 
+    border-right: .12em solid white;
+    white-space: nowrap; 
+    margin: 0 auto;
+    letter-spacing: .0em;
+    margin-left: 150px;
+    margin-top: 10px;
+    animation: 
+      typing 3.5s steps(30, end),
+      blink-caret .5s step-end infinite;
+  }
+  
+ 
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  
+ 
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    30% { border-color: #fff}
+  }
+.icons1 {
+    font-size: 25px;
+    margin-left: 120px;
+    margin-top: 15px;
+}
+.icons1 i {
+    margin-left : 30px;
+    cursor: pointer;
+    color :#fff;
+    transition: all 0.5s ease-out;
+}
+.icons1 a:hover i{
+   border-bottom: 2px solid;
+}
+.abtm {
+    margin-left: 60px;
+    font-size: 45px;
+    color: #fff;
+    margin-top: 35px;
+    margin-bottom: 10px;
+}
+.zuraas {
+    border-bottom: 2px solid #18D8EF;
+    margin-left: 90px;
+    width: 120px
+  }
+.aboutm {
+    margin-left: 40px;
+    margin-top: 80px;
+}
+.aboutm img{
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    margin-top: 20px;
+    padding-left: 30px;
+}
+.text1 {
+    font-size: 20px;
+    color: #fff;
+    margin-left: 80px;
+    font-family: "Open Sans", sans-serif;
+    margin-top: 50px;
+}
+.li1 { 
+    margin-left: 500px;
+    position: absolute;
+    top: 0px;
+    width: 400px;
+    margin-top: 50px;
+}
+.li1 p {
+    padding-top: 10px;
+    color: #fff;
+    font-size: 20px; 
+    padding: 10px; 
+}
+.li2 {
+    margin-left: 900px;
+    position: absolute;
+    width: 400px;
+    top: 55px;
+    
+}
+.li2 p {
+    font-size: 20px;
+    padding: 10px;
+    color: #fff;
+}
+.li1 i, .li2 i{
+    color: #18D8EF;
+}
+.skill-des {
+    color: #fff;
+    margin-left: 35px;
+    font-family: "Poppins", sans-serif;
+    margin-top: 30px;
+    margin-bottom : 30px;
+}
+.skill-des p{
+    font-size: 20px;
+    margin-top: 50px;
+}
+.skill-des i{
+    font-size: 15px;
+    color: #18D8EF;
+}
+.skills .garchig{
+    margin-left: 0px;
+    padding-left: 0px;
+}
+.skills {
+    margin-top: 30px;
+    margin-left: 40px;
+}
+.skills .diagram{
+    margin-left: 0px;
+   
+}
+.progress {
+    margin: 10px;
+    border-radius: 1px;
+    
+}
+.diagram {
+    padding-right: 10px;
+    margin-top: 25px;
+}
+.diagram span{
+    color: #fff;
+    margin-left: 10px;
+    font-family: "Poppins", sans-serif;
+}
+.progress-bar {
+    background-color:  #18D8EF;
+}
+.portfolio .garchig {
+    margin-left: 30px;
+}
+.text3 {
+    font-size: 20px;
+    color: #fff;
+    margin-left: 80px;
+    font-family: "Open Sans", sans-serif;
+    margin-top: 50px;
+}
+.lastsec {
+    width: 100%;
+    height: 40px;
+    background: #18D8EF;
+    text-align: center;
+    color: #fff;
+    margin-top: 10px;
+}
+.lastsec p{
+    font-size: 16px;
+    padding-top: 7px;
+}
+.text3 {
+    margin-left: 15px;
+}
+.text3 i{
+    color: #18D8EF;
+    font-size: 15px;
+
+}
+.s1 {
+    float: left;
+    padding: 10px;
+}
+.purecounter {
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: #34c2ff;
+  }
+.s1 p{
+    font-size: 35px;
+    padding-top: 0px;
+}
+.s1 i{
+    font-size: 145px;
+
+}.sanalhuselt {
+    margin-top: 55px;
+}
+.f1 {
+    text-align: center;
+}
+.f1 h2 {
+    text-align: center;
+    color: #fff;
+    font-size: 44px;
+}
+form {
+    margin-top: 45px;
+}
+.fn1 {
+    width: 400px;
+    margin-top: 15px;
+    background: #fff;
+    border: 3px solid #18D8EF;
+    border-radius: 5px;
+    height: 60px;
+}
+.fn2 {
+    width: 400px;
+    height: 100px;
+    margin-top: 15px;
+    padding-bottom: 75px;
+    background: #fff;
+    border: 3px solid #18D8EF;
+    border-radius: 7px;
+}
+.fn3 {
+    margin-top: 25px;
+    background: #18D8EF;
+    color: #fff;
+    font-size: 26px;
+    width: 150px;
+    border-radius: 7px;
+}
+
+body {
+    background-color: #000;
+}
+.profile {
+    width: 365px;
+    height: 750px;
+    margin: center;
+    color: #fff;
+    background-color: #040b14;;
+    position: fixed;
+}
+.profile img{
+    margin-left: 70px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-top: 50px;
+    transition: all 0.5s ease-out;
+}
+.profile a:hover img{
+    box-shadow: 230px 230px inset;
+    border-radius: 50%;
+    border : 1px solid;
+    color: #fff;
+    transform: scale(1.1,1.1)
+}
+.profile h3{
+    padding-top :10px;
+    margin-left: 110px;
+}
+.profile ul {
+    list-style-type: none;
+    float: left;
+    color: #a8a9b4;;
+}
+.profile ul li {
+    margin-bottom: 15px;
+    padding: 5px;
+}
+.profile ul li a i {
+    transition: all 0.5s ease-out;
+}
+.profile ul li a{
+    text-decoration: none;
+    color: #a8a9b4;
+    font-size: 18px;
+    transition: all 0.5s ease-out;
+}
+.profile ul li a:hover {
+    color: #fff;
+}
+.profile ul li a:hover i{
+    color: #18D8EF;
+}
+.profile .icons1 {
+    padding-left: 70px;
+    margin-bottom: 20px;
+}
+.profile .icons1 a i{
+    padding: 10px;
+    font-size: 25px;
+    color: #fff;
+    transition: all 0.5s ease-out;
+}
+.profile .icons1 a:hover i{
+    color: #18D8EF;
+}
+.garchig {
+    text-align: center;
+    margin-top :40px;
+}
+.garchig h3{
+    font-size: 45px;
+    color: #fff;
+}
+.zuraas {
+    border-bottom: 3px solid #18D8EF;
+    width: 70px;
+    margin-left: 500px;
+    padding-top: 0px;
+}
+.text2 {
+    color: #fff;
+    margin-top: 30px;
+    padding-left: 40px;
+    text-align: center;
+}
+.challtext{
+    margin-left: 80px;
+    margin-top: 110px;
+}
+.challtext p{
+    font-size :15px;
+    color: #fff;
+
+}
+.chall {
+    margin-top: 20px; 
+    width: 400px;
+    margin-bottom: 50px;
+    position: relative;
+    overflow: hidden;
+}
+.chall h3{
+    color: #000;
+    font-size: 25px;
+    color :#fff;
+    padding-top: 100px;
+    text-align: center;
+    cursor: pointer;
+    opacity: 0;
+    transition: all 0.3s ease-out;
+}
+.chall img{
+    width: 400px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 5px; 
+    transition: all 0.5s ease-out;
+}
+.chall .overlay{
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, .1);
+    position: absolute;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+    transition: all 0.5s ease-out;
+}
+.chall a:hover img {
+    transform: scale(1.1,1.1);
+}
+.chall a:hover .overlay{
+    background: rgba(0,0,0, .5);
+}
+.chall a:hover h3{
+    opacity: 1;
+}
+.favpro1, .favpro2 {
+    margin-top: 50px;
+    color: #fff;
+}
+
+.favpro1 h2 i, .favpro2 h2 i{
+    color: #18D8EF;
+    font-size: 25px;
+}
+.c1 {
+    position: relative;
+    width: 400px;
+    height: 250px;
+    text-align: center;
+    overflow: hidden;
+    margin: 20px;
+}
+.c1 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    /* margin: 15px; */
+    overflow: hidden;
+    transition: all 0.3s ease-out;
+    border-radius: 5px;
+}
+.c1 .overlay2{
+    background: rgba(0,0,0, .1);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    transition: all 0.3s ease-out;
+    overflow: hidden;
+    left: 0;
+}
+.c1 h3 {
+    font-size: 25px;
+    color :#fff;
+    padding-top: 100px;
+    cursor: pointer;
+    opacity: 0;
+    transition: all 0.3s ease-out;
+}
+.c1 a:hover h3 {
+    opacity: 1;
+}
+.c1 a:hover .overlay2 {
+    background: rgba(0,0,0, .5);
+}
+.c1:hover img {
+    transform: scale(1.1,1.1);
+    width: 100%;
+    height: 100%;
+}
+.button {
+    border: 1px solid #fff;
+    width : 100px;
+    height: 30px;
+    text-align: center;
+    border-radius: 5px;
+    transition: all 0.5s ease-out;
+    margin-top: 100px;
+    margin-left: 30px;
+    cursor: pointer;
+}
+.button a{
+    text-decoration: none;
+    color :#fff;
+    font-size: 20px;
+    padding-bottom: 5px;
+}
+.button:hover {
+    background-color: #18D8EF;
+
+}
